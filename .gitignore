@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*
+
+# Outputs / data / checkpoints
+outputs/
+**/outputs/
+data/
+datasets/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+
+# Kaggle / secrets
+kaggle.json
+**/kaggle.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
